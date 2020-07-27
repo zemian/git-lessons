@@ -1,22 +1,11 @@
-## Explore Git Source Control
+# About Git
 
-[Git Tutorial](https://confluence.oraclecorp.com/confluence/display/KM/Git+Tutorial)
+https://git-scm.com/
 
-## How to Read Merge Commit
+## About Parents Ref
 
-The first commitid is the target branch, and second is the original branch.
+- Use HEAD, HEAD~1, HEAD~2 to reference the commit on current branch. This can 
+  be used in "git show" for example.
 
-Example:
-
-```
-commit 8fcf79d43ac63a4faaa524110400a06e75735586 (HEAD -> master)
-Merge: 2883e86 9d83a86
-Author: Zemian Deng <zemian.deng@oracle.com>
-Date:   Tue May 28 10:17:18 2019 -0400
-
-8fcf79d (HEAD -> master) Merge remote-tracking branch 'origin/cmak-content-view'
-9d83a86 (origin/cmak-content-view) Fix session
-4d555f4 Move integration token and end user token to shared session object to reduce authorize calls
-2883e86 (origin/master, origin/HEAD) Merge-Request: 139 from 'zemian-work' into 'master'
-d3fc3d4 (zemian-work) Update readme
-```
+- Use "<merge-commit>^1" to reference parent 1, and "<merge-commit>^2" for parent 2.
+	

@@ -9,7 +9,7 @@ https://git-scm.com/
 
 - Use "<merge-commit>^1" to reference parent 1, and "<merge-commit>^2" for parent 2.
 
-# https://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git
+    * https://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git
 
 Rules of thumb
 
@@ -20,4 +20,3 @@ Mnemonics:
 
     Tilde ~ is almost linear in appearance and wants to go backward in a straight line
     Caret ^ suggests an interesting segment of a tree or a fork in the road
-

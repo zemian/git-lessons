@@ -18,3 +18,5 @@ The quickest way to export an repository over the http web is to use a Dump Git 
 3. Now you may clone it with:
     
     git clone http://localhost:8001/.git myrepo
+
+IMPORTANT: You must keep running `git update-server-info` to refresh the repository for any updates!
